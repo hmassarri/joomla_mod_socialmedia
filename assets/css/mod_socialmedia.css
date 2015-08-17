@@ -1,0 +1,23 @@
+#rt-bottom .rt-container .rt-block h2 {
+    margin-top: 20px;
+    margin-bottom: 0;
+    padding-bottom: 10px;
+    border-bottom: medium none;
+    box-shadow: none;
+    color: #ffc910;
+    font-size: 13px;
+    text-shadow: none;
+}
+
+#rt-bottom .rt-container .bottom-title h2 {
+	font-size: 13px !important;
+	color: #FFC910 !important;
+	box-shadow: none !important;
+	text-shadow: none !important;
+	border-bottom: none !important;
+}
+
+
+.social_share_plugin a {
+	color: #FFFFFF;
+}

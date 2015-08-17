@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="3.1.0" client="site">
+<name>Social Media</name>
+<author>Hugo M</author>
+<version>1.0</version>
+<description>Social Media</description>
+
+<files>
+	<filename>mod_socialmedia.xml</filename>
+	<filename module="mod_socialmedia">mod_socialmedia.php</filename>
+	<filename>index.html</filename>
+	<filename>helper.php</filename>
+	<filename>tmpl/default.php</filename>
+	<filename>assets/images/01_twitter.png</filename>
+	<filename>assets/images/02_facebook.png</filename>
+	<filename>assets/images/03_youtube.png</filename>
+	<filename>assets/images/07_linkedin.png</filename>
+	<filename>assets/images/13_pinterest.png</filename>
+	<filename>assets/images/14_googlemaps.png</filename>
+	<filename>assets/css/mod_socialmedia.css</filename>
+	<filename>tmpl/index.html</filename>
+</files>
+
+<config>
+	<fields name="params">
+		<fieldset name="basic">
+
+			<!-- Facebook Link-->
+			<field name="face_book_link" type="text" default="" label="Face Book Link" description="Face Book Link" size="60"/>
+
+			<field name="face_book_link_yes" type="radio" default="1" label="DisplayFB Link" description="DisplayFB Link">
+				<option value="0">No</option>
+				<option value="1">Yes</option>
+			</field>
+
+			<!-- Twitter Link -->
+			<field name="twitter_link" type="text" default="" label="Twitter Link " description="Twitter Link" size="60"/>
+
+			<field name="twitter_link_yes" type="radio" default="1" label="Display Twitter Link" description="Display Twitter Link">
+				<option value="0">No</option>
+				<option value="1">Yes</option>
+			</field>
+
+			<!-- YouTube Link -->
+			<field name="youtube_link" type="text" default="" label="YouTube Link " description="YouTube Link" size="60"/>
+
+			<field name="youtube_link_yes" type="radio" default="1" label="Display YouTube Link" description="Display YouTube Link">
+				<option value="0">No</option>
+				<option value="1">Yes</option>
+			</field>
+
+			<!-- LinkedIn Link -->
+			<field name="linkedin_link" type="text" default="" label="Linked In Link " description="Linked In Link" size="60"/>
+
+			<field name="linkedin_link_yes" type="radio" default="1" label="Display LinkedIn Link" description="Display LinkedIn Link">
+				<option value="0">No</option>
+				<option value="1">Yes</option>
+			</field>
+
+
+			<!-- Pinterest Link -->
+			<field name="pinrest_link" type="text" default="" label="Pinterest Link " description="Pinterest Link" size="60"/>
+
+			<field name="pinrest_link_yes" type="radio" default="1" label="Display Pinterest Link" description="Display Pinterest Link">
+				<option value="0">No</option>
+				<option value="1">Yes</option>
+			</field>
+
+
+			<!-- Google Map Link -->
+			<field name="google_map_link" type="text" default="" label="Google Map Link " description="Google Map Link" size="60"/>
+
+			<field name="google_map_link_yes" type="radio" default="1" label="Display Google Map Link" description="Display Google Map Link">
+				<option value="0">No</option>
+				<option value="1">Yes</option>
+			</field>
+
+
+			<!-- Facebook Like -->
+			<field name="face_book_like" type="text" default="" label="Face Book Like " description="Face Book Like" size="60" />
+
+			<field name="face_book_like_yes" type="radio" default="1" label="Display FB Like Link" description="Display FB Like Link">
+				<option value="0">No</option>
+				<option value="1">Yes</option>
+			</field>
+
+		</fieldset>
+	</fields>
+</config>
+
+<params></params>
+
+</extension>
