@@ -26,7 +26,11 @@
 			$SocialMediaParams['twitter_link'] = htmlspecialchars($params->get( 'twitter_link' ));
 			$SocialMediaParams['youtube_link'] = htmlspecialchars($params->get( 'youtube_link' ));
 			$SocialMediaParams['linkedin_link'] = htmlspecialchars($params->get( 'linkedin_link' ));
-			$SocialMediaParams['pinrest_link'] = htmlspecialchars($params->get( 'pinrest_link' ));
+			$SocialMediaParams['instagram_link'] = htmlspecialchars($params->get( 'instagram_link' ));
+			$SocialMediaParams['pinterest_link'] = htmlspecialchars($params->get( 'pinterest_link' ));
+			$SocialMediaParams['google_plus_link'] = htmlspecialchars($params->get( 'google_plus_link' ));
+			$SocialMediaParams['tumblr_link'] = htmlspecialchars($params->get( 'tumblr_link' ));
+			$SocialMediaParams['flickr_link'] = htmlspecialchars($params->get( 'flickr_link' ));
 			$SocialMediaParams['google_map_link'] = htmlspecialchars($params->get( 'google_map_link' ));
 			$SocialMediaParams['face_book_like'] = htmlspecialchars($params->get( 'face_book_like' ));
 
@@ -35,7 +39,11 @@
 			$SocialMediaParams['twitter_link_yes'] = htmlspecialchars($params->get( 'twitter_link_yes' ));
 			$SocialMediaParams['youtube_link_yes'] = htmlspecialchars($params->get( 'youtube_link_yes' ));
 			$SocialMediaParams['linkedin_link_yes'] = htmlspecialchars($params->get( 'linkedin_link_yes' ));
-			$SocialMediaParams['pinrest_link_yes'] = htmlspecialchars($params->get( 'pinrest_link_yes' ));
+			$SocialMediaParams['instagram_link_yes'] = htmlspecialchars($params->get( 'instagram_link_yes' ));
+			$SocialMediaParams['pinterest_link_yes'] = htmlspecialchars($params->get( 'pinterest_link_yes' ));
+			$SocialMediaParams['google_plus_link_yes'] = htmlspecialchars($params->get( 'google_plus_link_yes' ));
+			$SocialMediaParams['tumblr_link_yes'] = htmlspecialchars($params->get( 'tumblr_link_yes' ));
+			$SocialMediaParams['flickr_link_yes'] = htmlspecialchars($params->get( 'flickr_link_yes' ));
 			$SocialMediaParams['google_map_link_yes'] = htmlspecialchars($params->get( 'google_map_link_yes' ));
 			$SocialMediaParams['face_book_like_yes'] = htmlspecialchars($params->get( 'face_book_like_yes' ));
 

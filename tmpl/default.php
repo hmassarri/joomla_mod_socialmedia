@@ -46,14 +46,38 @@
 				<?php endif; ?>
 			</tr>
 			<tr>
-				<?php if($SocialMediaParams['pinrest_link_yes']==1): ?>
+				<?php if($SocialMediaParams['instagram_link_yes']==1): ?>
+				<td><img alt="Instagram" src="modules/mod_socialmedia/assets/images/10_instagram.png" height="32" width="32" /></td>
+				<td><a href="<?php echo $SocialMediaParams['instagram_link']; ?>" target="_blank">Instagram</a></td>
+				<?php endif; ?>
+			</tr>
+			<tr>
+				<?php if($SocialMediaParams['pinterest_link_yes']==1): ?>
 				<td><img alt="Pinterest" src="modules/mod_socialmedia/assets/images/13_pinterest.png" height="32" width="32" /></td>
-				<td><a href="<?php echo $SocialMediaParams['pinrest_link'];?>" target="_blank">Pinterest</a></td>
+				<td><a href="<?php echo $SocialMediaParams['pinterest_link'];?>" target="_blank">Pinterest</a></td>
+				<?php endif; ?>
+			</tr>
+			<tr>
+				<?php if($SocialMediaParams['google_plus_link_yes']==1): ?>
+				<td><img alt="Google+" src="modules/mod_socialmedia/assets/images/14_google+.png" height="32" width="32" /></td>
+				<td><a href="<?php echo $SocialMediaParams['google_plus_link'];?>" target="_blank">Google+</a></td>
+				<?php endif; ?>
+			</tr>
+			<tr>
+				<?php if($SocialMediaParams['tumblr_link_yes']==1): ?>
+				<td><img alt="Tumblr" src="modules/mod_socialmedia/assets/images/15_tumblr.png" height="32" width="32" /></td>
+				<td><a href="<?php echo $SocialMediaParams['tumblr_link'];?>" target="_blank">Tumblr</a></td>
+				<?php endif; ?>
+			</tr>
+			<tr>
+				<?php if($SocialMediaParams['flickr_link_yes']==1): ?>
+				<td><img alt="Flickr" src="modules/mod_socialmedia/assets/images/16_flickr.png" height="32" width="32" /></td>
+				<td><a href="<?php echo $SocialMediaParams['flickr_link'];?>" target="_blank">Flickr</a></td>
 				<?php endif; ?>
 			</tr>
 			<tr>
 				<?php if($SocialMediaParams['google_map_link_yes']==1): ?>
-				<td><img alt="Google Maps" src="modules/mod_socialmedia/assets/images/14_googlemaps.png" height="32" width="32" /></td>
+				<td><img alt="Google Maps" src="modules/mod_socialmedia/assets/images/25_googlemaps.png" height="32" width="32" /></td>
 				<td><a href="<?php echo $SocialMediaParams['google_map_link']; ?>" target="_blank">Google Maps</a></td>
 				<?php endif; ?>
 			</tr>

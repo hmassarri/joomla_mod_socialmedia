@@ -15,8 +15,12 @@
 	<filename>assets/images/02_facebook.png</filename>
 	<filename>assets/images/03_youtube.png</filename>
 	<filename>assets/images/07_linkedin.png</filename>
+	<filename>assets/images/10_instagram.png</filename>
 	<filename>assets/images/13_pinterest.png</filename>
-	<filename>assets/images/14_googlemaps.png</filename>
+	<filename>assets/images/14_google+.png</filename>
+	<filename>assets/images/15_tumblr.png</filename>
+	<filename>assets/images/16_flickr.png</filename>
+	<filename>assets/images/25_googlemaps.png</filename>
 	<filename>assets/css/mod_socialmedia.css</filename>
 	<filename>tmpl/index.html</filename>
 </files>
@@ -57,15 +61,45 @@
 				<option value="1">Yes</option>
 			</field>
 
+			<!-- Instagram Link -->
+			<field name="instagram_link" type="text" default="" label="Instagram Link " description="Instagram Link" size="60"/>
 
-			<!-- Pinterest Link -->
-			<field name="pinrest_link" type="text" default="" label="Pinterest Link " description="Pinterest Link" size="60"/>
-
-			<field name="pinrest_link_yes" type="radio" default="1" label="Display Pinterest Link" description="Display Pinterest Link">
+			<field name="instagram_link_yes" type="radio" default="1" label="Display Instagram Link" description="Display Instagram Link">
 				<option value="0">No</option>
 				<option value="1">Yes</option>
 			</field>
 
+			<!-- Pinterest Link -->
+			<field name="pinterest_link" type="text" default="" label="Pinterest Link " description="Pinterest Link" size="60"/>
+
+			<field name="pinterest_link_yes" type="radio" default="1" label="Display Pinterest Link" description="Display Pinterest Link">
+				<option value="0">No</option>
+				<option value="1">Yes</option>
+			</field>
+
+			<!-- Google Plus Link -->
+			<field name="google_plus_link" type="text" default="" label="Google+ Link " description="Google+ Link" size="60"/>
+
+			<field name="google_plus_link_yes" type="radio" default="1" label="Display Google+ Link" description="Display Google+ Link">
+				<option value="0">No</option>
+				<option value="1">Yes</option>
+			</field>
+
+			<!-- Tumblr Link -->
+			<field name="tumblr_link" type="text" default="" label="Tumblr Link " description="Tumblr Link" size="60"/>
+
+			<field name="tumblr_link_yes" type="radio" default="1" label="Display Tumblr Link" description="Display Tumblr Link">
+				<option value="0">No</option>
+				<option value="1">Yes</option>
+			</field>
+
+			<!-- Flickr Link -->
+			<field name="flickr_link" type="text" default="" label="Flickr Link " description="Tumblr Link" size="60"/>
+
+			<field name="flickr_link_yes" type="radio" default="1" label="Display Flickr Link" description="Display Flickr Link">
+				<option value="0">No</option>
+				<option value="1">Yes</option>
+			</field>
 
 			<!-- Google Map Link -->
 			<field name="google_map_link" type="text" default="" label="Google Map Link " description="Google Map Link" size="60"/>
@@ -74,7 +108,6 @@
 				<option value="0">No</option>
 				<option value="1">Yes</option>
 			</field>
-
 
 			<!-- Facebook Like -->
 			<field name="face_book_like" type="text" default="" label="Face Book Like " description="Face Book Like" size="60" />
